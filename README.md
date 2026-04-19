@@ -10,11 +10,11 @@ This repository is structured so a user can install and run with a single comman
 
 ## 1) Publish required assets on Hugging Face
 
-You said you will host trained models and Chroma artifacts on Hugging Face. Use this mapping:
+If you will host trained models and Chroma artifacts on Hugging Face. Use this mapping:
 
-- `NLLB checkpoint` → model repo (example: `your-org/nllb-latin-en`)
-- `Qwen LoRA adapter` (optional) → model repo (example: `your-org/qwen-latin-refine-lora`)
-- `Chroma persist directory` → dataset repo with a zip/tarball (example: `your-org/latin-chroma-db`)
+- `NLLB checkpoint` → model repo (example: `your-path/nllb-latin-en`)
+- `Qwen LoRA adapter` (optional) → model repo (example: `your-path/qwen-latin-refine-lora`)
+- `Chroma persist directory` → dataset repo with a zip/tarball (example: `your-path/latin-chroma-db`)
 
 ## 2) Installation
 
